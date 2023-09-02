@@ -2,7 +2,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 
-public class App {
+public class ContaTerminal {
 public static void main(String[] args) {
         //criando o objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
@@ -21,7 +21,7 @@ public static void main(String[] args) {
 
         
         //imprimindo os dados obtidos pelo usuario
-        System.out.println("Ol\u00E1, " + nome + ", Obrigado por criar uma conta em nosso banco. A sua ag\u00EAncia \u00E9 " + agencia + ", conta " + conta + " e seu saldo " +saldo+ " j\u00E1 est\u00E1 dispon\u00EDvel para saque.");
+        System.out.println("Ol\u00E1, " + nome + ", Obrigado por criar uma conta em nosso banco, a sua ag\u00EAncia \u00E9 " + agencia + ", conta " + conta + " e seu saldo " +saldo+ " j\u00E1 est\u00E1 dispon\u00EDvel para saque.");
 
 
 
